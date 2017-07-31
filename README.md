@@ -5,4 +5,4 @@ KinVis is built in R and Shiny, and allows users to import GWAS data, visualize 
 
 This is a very early version of the application - there are still bugs that we need to fix. We will be such fixes and changes over the coming 1-2 months.
 
-To run KinVis, download the code files, and run either server.R or app.R in RStudio. In this version, you must have a folder named "DATA" in your working directory, with the files you wish to visualize.
+To run KinVis, download the code files, and run the function in RunKinVis.R, passing in the location (absolute path) of your data folder. In the application, you will have to browze to that folder to select the population files - the location where these files are located must be the location passed into the runKinVis() function. We hope to make this easier to use in future versions.
