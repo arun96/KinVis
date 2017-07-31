@@ -1,5 +1,5 @@
 #-----source and load functions -----#
-print(getwd())
+# print(getwd())
 source("loadFunctions.R")
 loadFunctions()
 #-----load the rquired functions-----#

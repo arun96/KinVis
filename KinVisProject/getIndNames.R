@@ -5,8 +5,12 @@ getIndNames <- function(fileName){         #fileName will give info on the popul
   #extension name if genome then header TRUE otherwise FALSE
   extnNm <- file_ext(fileName)
   
+  dataPath <- .dataLocation
+  
+  print(dataPath)
+  
   currentDir <- getwd()
-  setwd("./DATA")
+  setwd(dataPath)
   if (extnNm == "genome"){
       readData <- read.table(fileName, header = TRUE, sep = "\t")
     }
