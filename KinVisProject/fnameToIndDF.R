@@ -1,3 +1,12 @@
+#' Helper function to convert a file into a data frame of individuals
+#'
+#' @param The loaded matrix, population file name, individual names, type of plot, origInd, maximum value individuals, the selected process, the number of selected, and the zoom of the heatmap
+#' @return A data frame of the individuals
+#' @export
+#' @examples
+#' fnameToIndDF(matrix, filename, individuals names, type of plot)
+
+
 fnameToIndDF <- function(loadedMat, popFName, indNames, plotType, origInd = NULL
                          , maxKValInd = NULL, prcs =NULL, slctNum = NULL, heatZmLvl = NULL){
   

@@ -1,3 +1,11 @@
+#' Helper function to convert a DS to a Data Frame
+#'
+#' @param Selected DS, and the max K value (defaults to 9)
+#' @return A data frame
+#' @export
+#' @examples
+#' DSToDataFrame(Selected Ds, maximum K)
+
 DsToDataFrame <- function(selectedDs, maxK = 9){
   
   # #declare variables

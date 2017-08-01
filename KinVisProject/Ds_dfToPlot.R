@@ -1,3 +1,11 @@
+#' Helper function to convert a data frame into a plot
+#'
+#' @param Ds, Vs, type of plot, k-value
+#' @return Plot
+#' @export
+#' @examples
+#'Ds_dfToPlot(Ds, Vs, plotType, K value)
+
 Ds_dfToPlot <- function(Ds, Vs, plotType, maxKInd){
   
   if (plotType == "Bar GraphP"){

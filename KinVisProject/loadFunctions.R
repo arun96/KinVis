@@ -1,6 +1,12 @@
+#' Helper function to load relevant functions
+#'
+#' @param No input paramters
+#' @return No output - loads the functions
+#' @export
+#' @examples
+#' loadFunctions()
+
 loadFunctions <- function(){
-  
-  source("getPlotly.r")
   
   source("fnameToPopDF.R")
   source("fnameToIndDF.R")

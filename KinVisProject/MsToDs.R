@@ -1,3 +1,11 @@
+#' Helper function to convert MS matrix to DS matrix
+#'
+#' @param MS, toChange boolean
+#' @return DS
+#' @export
+#' @examples
+#' MSToDS(MS)
+
 MsToDs <- function (Ms, toChange = FALSE){
   
   #copy of Ms matrix

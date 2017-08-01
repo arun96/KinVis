@@ -1,3 +1,11 @@
+#' OBSOLETE - Helper function to help zoom in heatmap
+#'
+#' @param Current zoom, number of individuals
+#' @return Selected size 
+#' @export
+#' @examples
+#' heatSlctSize(Zoom, Number of Individuals)
+
 heatSlctSize <- function(heatZoom, numInds){#function inputs = either width/height of heatmap zoom levels
                                             #and total number of individuals
   

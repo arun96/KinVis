@@ -1,3 +1,11 @@
+#' Helper function to convert a data frame into a box plot
+#'
+#' @param The data frame to be plotted, and the means by which the plot will be ordered
+#' @return A box plot
+#' @export
+#' @examples
+#' DFToBoxPlot(Dataframe, Ordering)
+
 DFToBoxPlot <- function(IBS_df, ordByMed){
   
   IBS_df$PopName<-factor(IBS_df$PopName)

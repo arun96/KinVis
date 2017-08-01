@@ -1,3 +1,11 @@
+#' Function to convert a vector list into a data frame
+#'
+#' @param The List
+#' @return A dataframe
+#' @export
+#' @examples
+#' boxPopDF(list)
+
 boxPopDF <- function(loadMatList){       #converts normalize vec Vs list to data frame
   
   #get values from upper triangular matrix of each population

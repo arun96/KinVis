@@ -1,3 +1,11 @@
+#' Helper function to convert a vector to a dataframe
+#'
+#' @param Vector, max K value
+#' @return Created data frame
+#' @export
+#' @examples
+#' vecToDataFrame(vector, max K)
+
 vecToDataFrame <- function(Vs, maxKSet){
   
   nVs_vec <- vector()

@@ -1,3 +1,12 @@
+#' Helper function to calculate Euclid distance between two vectors
+#'
+#' @param Two vectors
+#' @return Euclidean distance between two input vectors
+#' @export
+#' @examples
+#' vecEucDistCalc(vector1, vector2)
+
+
 vecEucDistCalc <- function (vec1, vec2){              #calculates euclid distance between 
                                                       #two vectors vec1 and vec2
   

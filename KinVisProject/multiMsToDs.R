@@ -1,3 +1,11 @@
+#' Helper function to convert list of matrices to dissimilarity matrix
+#'
+#' @param Matrix list
+#' @return Dissimilarity Matrix
+#' @export
+#' @examples
+#' multiMsToDs(Matrix list)
+
 multiMsToDs <- function(multiMsMat){                        #takes a matrix list converts to
                                                             #dissimilarity matrix Ds
   

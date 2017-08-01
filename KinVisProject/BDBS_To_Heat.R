@@ -1,3 +1,11 @@
+#' Helper function to generate a heatmap
+#'
+#' @param The loaded matrix, population file name, process that has been selected, the individual names, the selected value, the zoom level (now obsolete)
+#' @return An object that is used to generate the heatmap
+#' @export
+#' @examples
+#' BDBS_To_Heat(matrix, population name, process, individual names, selected value)
+
 BDBS_To_Heat <- function(loadedMat, popName, procs, iNames, slctInt = NULL, heatZmLvl = NULL){
   
   #set rcInds to null it will change when the 

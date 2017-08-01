@@ -1,3 +1,11 @@
+#' Helper function to convert matrix to MDS data frame
+#'
+#' @param Data, individual names
+#' @return List with values for MDS
+#' @export
+#' @examples
+#' matToDFMDS(DS, Names)
+
 matToDFMDS <- function(Ds, iNames){
   
   #change indNames to just I1, I2, I3.....

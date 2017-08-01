@@ -1,3 +1,12 @@
+#' Function that creates the kinship matrix
+#'
+#' @param Kinship Matrix Data, and the Population Name
+#' @return A new matrix
+#' @export
+#' @examples
+#' complKinMat(matrix, CLM)
+
+
 complKinMat <- function (kinMatData, popName){                #returns a newly formed
                                                               #matrix
   

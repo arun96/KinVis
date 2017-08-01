@@ -1,3 +1,11 @@
+#' Helper function to convert hBN to the MDS Dataframe
+#'
+#' @param Loaded list
+#' @return A data frame
+#' @export
+#' @examples
+#' hBNToMDSDF(List)
+
 hBNToMDSDF <- function(loadedList){
   #get names for populations
   popFNames <- names(loadedList)

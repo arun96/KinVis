@@ -1,3 +1,11 @@
+#' Helper function to generate a Legend, provided a K-value
+#'
+#' @param The K-value
+#' @return A legend object
+#' @export
+#' @examples
+#' barLegendInd(K-Value)
+
 barLegendInd <- function(kVal){
   
   ###                                 VALUE -     COLOUR

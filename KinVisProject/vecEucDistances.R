@@ -1,3 +1,11 @@
+#' Helper function to return distance matrix
+#'
+#' @param List of multiple vectors
+#' @return Distance matrix, computed using Euclidean distance formula
+#' @export
+#' @examples
+#' vecEucDistance(List of vectors)
+
 vecEucDistances <- function (vecVsList){                  #takes a list containing multiple vectors
                                                           #and returns a dustance matrix using the
                                                           #Euclidian distance formula

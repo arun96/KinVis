@@ -1,3 +1,11 @@
+#' Helper function to load packages
+#'
+#' @param Package/list of packages
+#' @return None - packages are loaded
+#' @export
+#' @examples
+#' packLoad(list of packages)
+
 packLoad <- function(pkg){
   
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]

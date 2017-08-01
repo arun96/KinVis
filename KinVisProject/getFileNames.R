@@ -1,3 +1,11 @@
+#' Helper function to get filenames from data directory
+#'
+#' @param No inputparamters
+#' @return List of file names
+#' @export
+#' @examples
+#' getFileNames()
+
 getFileNames <- function(){
   
   #to return back to current directory to store it

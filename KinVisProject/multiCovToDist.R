@@ -1,3 +1,11 @@
+#' Helper function to convert covariance matrices to distance
+#'
+#' @param Covariance matrices
+#' @return List of covariance
+#' @export
+#' @examples
+#' multiCovToDist(covariance matrices)
+
 multiCovToDist <- function (multiCovMat){
   
   multiCovList <- list()

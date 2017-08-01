@@ -1,3 +1,11 @@
+#' Helper function to normalize vector
+#'
+#' @param Vector to be normalized
+#' @return Normalized vector
+#' @export
+#' @examples
+#' normVector(vector)
+
 normVector <- function(Vec){
   
   if (class(Vec) == "list"){ 

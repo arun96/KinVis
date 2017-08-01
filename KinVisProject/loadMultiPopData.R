@@ -1,3 +1,11 @@
+#' Helper function to load multiple population data
+#'
+#' @param File names vector, data paths vector, process name, file extension
+#' @return Matrix with data
+#' @export
+#' @examples
+#' loadMultiPopData(file names, data paths, process, extension)
+
 loadMultiPopData <- function (fileNameVec, fileDPVec, prcsName, extn){ #file DP Vec is data paths vector
   
   

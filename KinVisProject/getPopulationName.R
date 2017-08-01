@@ -1,3 +1,11 @@
+#' Helper function to get population name from a file
+#'
+#' @param The filename containing population data
+#' @return The population name
+#' @export
+#' @examples
+#' getPopulationName(filename)
+
 getPopulationName <- function(fileName){       #returns a character class
   
   if(is.null(fileName)) { return(NULL) }

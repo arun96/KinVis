@@ -1,3 +1,11 @@
+#' Helper function to convert a DS into a normalized Vector
+#'
+#' @param The DS, and the maximum Value
+#' @return A normalized vector
+#' @export
+#' @examples
+#' DSToVS(DS, Maximum value)
+
 DsToVs <- function (Ds, maxVal){    #returns a vector (having frequency of k
                                                           #values) which is normalized  
   

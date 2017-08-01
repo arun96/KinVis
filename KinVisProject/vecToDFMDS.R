@@ -1,3 +1,11 @@
+#' Helper function to convert a vector to a dataframe for MDS
+#'
+#' @param List of vectors
+#' @return Created data frame for the MDS Plot
+#' @export
+#' @examples
+#' vecToDFMDS(list of vectors)
+
 vecToDFMDS <- function (vecVsList) {
   
   #following finds anmes of each population to display

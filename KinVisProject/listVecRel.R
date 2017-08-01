@@ -1,3 +1,11 @@
+#' Helper function to get data names
+#'
+#' @param Input vector, the displaced vector, the vector list
+#' @return Names
+#' @export
+#' @examples
+#' listVecRel(input vector, displayed vector, list)
+
 listVecRel <- function(inputVec, dispVec, dispVecList){
   
   loadDataNames <- vector("character")

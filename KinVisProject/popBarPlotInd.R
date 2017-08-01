@@ -1,3 +1,11 @@
+#' Helper function to get the population bar plot for individuals
+#'
+#' @param The dataframe, any highlighted data, the population name, and a name parameter (defaults to FALSE)
+#' @return Bar Plot
+#' @export
+#' @examples
+#' popBarPlotInd(Dataframe, highlighted data, population name)
+
 popBarPlotInd <- function(toPlot_DF, highlightData = NULL, Population_Name, isName = FALSE){
   #COLORS AND NAMES TO USE FOR LEGEND
   lineageColors=c('dodgerblue3', 'darkorange', 'forestgreen', 'firebrick','mediumpurple'

@@ -1,3 +1,11 @@
+#' Helper function to get the process name from an input file 
+#'
+#' @param File name
+#' @return Process name
+#' @export
+#' @examples
+#' getProcessName(Filename)
+
 getProcessName <- function(fileName){                       #returns a character class name
   
   dotCount1 <- 0                                            #counts all number of dots

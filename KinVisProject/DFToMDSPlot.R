@@ -1,3 +1,11 @@
+#' Helper function to convert a data frame into a MDS plot
+#'
+#' @param The data frame to be plotted, the points on the plot, label names, eigenvalues, and the selected values
+#' @return An MDS plot
+#' @export
+#' @examples
+#' DFToMDSPlot(MDS Dataframe, Points list, Name of Label, Eigenvalues, Selected Values)
+
 DFToMDSPlot <- function(MDS_DF, circlePoints, Label_Name, eigVals, slctVals = NULL){
   
   if (identical(unique(eigVals), 0)){

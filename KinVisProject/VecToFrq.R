@@ -1,3 +1,11 @@
+#' Helper function to convert a vector to list of frequences
+#'
+#' @param Vector to convert
+#' @return Vector of frequencies
+#' @export
+#' @examples
+#' VecToFrq(vector, max K)
+
 VecToFrq <- function(vec, maxK = 9){
   
   #remove NA's

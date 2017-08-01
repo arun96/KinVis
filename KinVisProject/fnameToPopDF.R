@@ -1,3 +1,11 @@
+#' Helper function to convert a file into a data frame of populations
+#'
+#' @param The loaded matrix, max K value, and the type of plot
+#' @return A data frame of the individuals
+#' @export
+#' @examples
+#' fnameToPopDF(matrix, k-value, type of plot)
+
 fnameToPopDF <- function(loadedList, maxKVal = NULL, plotType = NULL){   #takes fileNames 
                                                                         #and makes data frames
   if (is.null(plotType)){

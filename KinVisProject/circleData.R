@@ -1,3 +1,11 @@
+#' Helper function for MDS Plots
+#'
+#' @param The x and y for the MDS Plot
+#' @return The points on the plot
+#' @export
+#' @examples
+#' circleData(x, y)
+
 circleData <- function(xMDS, yMDS){
   
   #----------------------------------CIRCLE RADIUS AND CENTER--------------------------------#

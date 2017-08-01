@@ -1,3 +1,11 @@
+#' Helper function to get the names of individuals
+#'
+#' @param The filename of the population
+#' @return A list of individual names
+#' @export
+#' @examples
+#' getIndNames(filename)
+
 getIndNames <- function(fileName){         #fileName will give info on the population
   #PUT ALL LOADED DATA IN ONE OBJECT TO EASE ACCESS. THIS OBJECT WILL BE USED HERE ONCE IT IS MADE.
   if (is.null(fileName) || (length(fileName) > 1)) return(NULL)

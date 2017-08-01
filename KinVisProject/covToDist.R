@@ -1,3 +1,11 @@
+#' Function to convert covariance to distance
+#'
+#' @param Covariance matrix
+#' @return Covariance Distance Matrix
+#' @export
+#' @examples
+#' covToDis(CovarianceMatrix)
+
 covToDist <- function (covMat){
   
   covDistMat <- matrix(0, nrow = nrow(covMat), ncol = ncol(covMat))

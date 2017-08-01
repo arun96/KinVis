@@ -1,3 +1,11 @@
+#' Helper function to convert a data frame into a bar plot
+#'
+#' @param The data frame to be plotted, highlighted data, population name, and a name parameter (defaults to FALSE)
+#' @return A bar plot
+#' @export
+#' @examples
+#' DFToBarPlot(Dataframe, HighlightedData, Population)
+
 DFToBarPlot <- function(toPlot_DF, highlightData = NULL, Population_Name, isName = FALSE){
   #COLORS AND NAMES TO USE FOR LEGEND
   lineageColors=c('dodgerblue3', 'darkorange', 'forestgreen', 'firebrick','mediumpurple'

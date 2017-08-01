@@ -1,3 +1,11 @@
+#' Helper function to convert hBN to a Dendrogram
+#'
+#' @param Loaded Matrix, the method, and the k-value
+#' @return Plot and object to select from
+#' @export
+#' @examples
+#' hBN_To_Dend(matrix, method, k-value)
+
 hBN_To_Dend <- function(loadedMat, METHOD = NULL, K = NULL){
   # METHOD from select input clustMeth
   # K from slider input cTree

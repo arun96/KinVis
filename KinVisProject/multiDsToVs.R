@@ -1,3 +1,11 @@
+#' Helper function to convert matrix list to vector list
+#'
+#' @param Matrix list
+#' @return Vector list
+#' @export
+#' @examples
+#' multiDsToVs(matrix list)
+
 multiDsToVs <- function(multiDsMat){                    #takes a matrix list converts to 
                                                         #vector list
   

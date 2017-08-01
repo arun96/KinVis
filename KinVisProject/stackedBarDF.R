@@ -1,3 +1,11 @@
+#' Helper function to generate a data frame for a stacked bar plot
+#'
+#' @param Vector, maximum k-value (defaults to 9)
+#' @return Dataframe for the plot
+#' @export
+#' @examples
+#' stackedBarDF(Vector, Maximum K Value)
+
 stackedBarDF <- function(Vs, maxKVal = 9){
   
   

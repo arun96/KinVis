@@ -1,3 +1,12 @@
+#' Helper function to convert a Dataframe into a Bar Plot
+#'
+#' @param The data frame, individual names, and highlighted data (defaults to NULL)
+#' @return A bar plot
+#' @export
+#' @examples
+#' BarDFToPlot(Dataframe, Names, NULL)
+
+
 BarDFToPlot <- function(Ds_df, Individual_Name, hglData = NULL){
   #COLORS AND NAMES TO USE FOR LEGEND
   lineageColors=c('dodgerblue3', 'darkorange', 'forestgreen', 'firebrick','mediumpurple'
